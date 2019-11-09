@@ -1,0 +1,28 @@
+{
+    "name": "thingston/paginator",
+    "type": "library",
+    "description": "Paginator class for any suitable source of traversable data.",
+    "keywords": ["php", "dom", "paginator"],
+    "homepage": "https://thingston.com",
+    "license": "MIT",
+    "authors": [
+        {"name": "Pedro Ferreira", "email": "pedro@thingston.com"}
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thingston\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ThingstonTest\\": "test/"
+        }
+    }
+}
