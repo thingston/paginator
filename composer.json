@@ -1,7 +1,7 @@
 {
     "name": "thingston/paginator",
     "type": "library",
-    "description": "Paginator class for any suitable source of traversable data.",
+    "description": "PHP paginator class for any suitable source of data using custom adapters.",
     "keywords": ["php", "dom", "paginator"],
     "homepage": "https://thingston.com",
     "license": "MIT",
